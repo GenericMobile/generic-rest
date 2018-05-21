@@ -23,7 +23,7 @@ public class example {
       // Auth Basic header
       String basicAuth = "Basic " + Base64.getEncoder().encodeToString((username + ":" + password).getBytes());
       // Body JSON data
-      String jsonData = "{ \"From\": \"Test\", \"To\": [ \"+15551234\" ],\"Text\": \"Test message\"}";
+      String jsonData = "{ \"From\": \"TEST\", \"To\": [ \"+15551234\" ],\"Text\": \"Test message\"}";
 
       urlConnection.setRequestMethod("POST");
       urlConnection.setRequestProperty("Authorization", basicAuth);
