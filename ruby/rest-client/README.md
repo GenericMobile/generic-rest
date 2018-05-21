@@ -1,6 +1,9 @@
 ## Ruby gem rest-client ##
-### prerequisites ###
+Simple example using `net-http` with `application/x-www-form-urlencoded` body.
+
+### Stdlib/rubygems components used ###
+- `uri`
 - `rest-client`
 
-### Usage ###
-See `example.rb` for usage.
+### Prerequisites ###
+- `rest-client`

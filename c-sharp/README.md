@@ -1,8 +1,8 @@
 ## C# ##
-Simple example using System.Net.Http.
+Simple example using `System.Net.Http` with `application/json` body.
+
+Tested with .NET (4.5) and Mono
 
 ### Usage ###
-See `example.cs` for usage.
-
 Run `make` to compile.
 

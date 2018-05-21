@@ -11,7 +11,7 @@ namespace Generic {
 
     static void Main() {
       string base64 = System.Convert.ToBase64String(Encoding.UTF8.GetBytes(username + ":" + password));
-      string jsonData = "{ \"From\": \"Test\", \"To\": [ \"+15551234\" ],\"Text\": \"Test message\"}";
+      string jsonData = "{ \"From\": \"TEST\", \"To\": [ \"+15551234\" ],\"Text\": \"Test message\"}";
 
       // Setup client and handle IDisposable interface
       using(var client = new HttpClient()) {

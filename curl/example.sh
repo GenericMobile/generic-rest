@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 curl -v \
   --basic -u 'USERNAME:PASSWORD' \
   --data-urlencode 'From=TEST' --data-urlencode 'To[]=+15551234' --data-urlencode 'Text=Test message' \

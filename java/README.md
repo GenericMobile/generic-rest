@@ -1,5 +1,4 @@
 ## Java ##
-Simple example using HttpURLConnection.
+Simple example using `java.net.HttpURLConnection` with `application/json body`.
 
-### Usage ###
-See `example.java` for usage.
+Tested with Oracle Java 8p172 and OpenJDK 9.

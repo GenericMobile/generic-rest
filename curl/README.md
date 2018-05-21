@@ -1,5 +1,4 @@
 ## cURL ##
-Simple example using cURL.
+Simple example using `cURL` with `application/x-www-form-urlencoded` body.
 
-### Usage ###
-See `example.sh` for usage.
+Using `--data-urlencode` to let cURL encode body data in the request-

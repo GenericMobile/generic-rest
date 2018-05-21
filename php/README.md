@@ -1,5 +1,7 @@
 ## PHP ##
-Simple example using stream_context_create/file_get_contents.
+Simple example using `stream_context_create` and `file_get_contents` with `application/json` body.
 
-### Usage ###
-See `example.php` for usage.
+### Prerequisites ###
+- `json` module
+- `openssl` module
+- `https` stream wrapper

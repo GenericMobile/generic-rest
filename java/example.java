@@ -20,12 +20,10 @@ public class example {
     
     try {
       HttpURLConnection urlConnection = (HttpURLConnection)url.openConnection();
-
+      // Auth Basic header
       String basicAuth = "Basic " + Base64.getEncoder().encodeToString((username + ":" + password).getBytes());
-      Map<String, Object> jsonMap = new HashMap<String, Object>();
-
-
-      String jsonData = "{ \"From\": \"Test\", \"To\": [ \"+15551234\" ],\"Text\": \"Test message\"}";
+      // Body JSON data
+      String jsonData = "{ \"From\": \"TEST\", \"To\": [ \"+15551234\" ],\"Text\": \"Test message\"}";
 
       urlConnection.setRequestMethod("POST");
       urlConnection.setRequestProperty("Authorization", basicAuth);
